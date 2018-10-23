@@ -1,0 +1,35 @@
+{
+  "packageDirectories": [
+    { "path": "sfdx-source/cbit", "default": true },
+    { "path": "sfdx-source/unpackaged"},
+    { "path": "sfdx-source/untracked"}
+  ],
+  "namespace": "cbit",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "43.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "producerAlias"   : "univ-ctrs",
+      "producerName"    : "Universal Containers",
+      "projectAlias"    : "uc-pkgd-app",
+      "projectName"     : "salesforce-appexchange",
+      "projectType"     : "appx:managed1gp",
+      "defaultRecipe"   : "build-scratch-org.json",
+      "gitRemoteUri"    : "https://github.com/my-org/my-repo.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.91",
+      "appxPackage"     : {
+        "namespacePrefix"   : "cbit",
+        "packageName"       : "Clearbit for Salesforce",
+        "metadataPackageId" : "033j0000000VC7v",
+        "packageVersionId"  : {
+          "release" : "04t000000000000",
+          "beta"    : "04t000000000000"
+        }
+      },
+      "appxDemo": {}
+    }
+  }
+}
